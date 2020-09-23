@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="reidou" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="161px" height="160px" viewBox="0 0 161 160" enable-background="new 0 0 161 160" xml:space="preserve">
+	 <defs>
+        <linearGradient x1="42.5170547%" y1="8.01121418%" x2="96.9400333%" y2="96.3671667%" id="linearGradient-1">
+            <stop stop-color="#25c2a0" offset="0%"></stop>
+            <stop stop-color="#1fa588" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+	<g fill="url(#linearGradient-1)">
+		<path d="M13.172,107.92C20.98,63.632,41.06,47.184,64.804,40.592c31.52-8.784,69.551-0.24,94.096-16.592
+			c-2.816,30.816-16.641,67.232-52.096,81.393C70.1,120.064,33.892,92.752,7.7,136H2.1c9.84-20.16,24.256-37.473,42.8-51.2
+			c24.032-17.776,55.008-29.68,91.888-38.288c-31.712,5.136-58.128,10.576-81.584,23.952C40.18,79.008,26.372,90.848,13.172,107.92
+			L13.172,107.92z"/>
+	</g>
+</svg>
