@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 function About() {
-
 
   return (
     <Layout title="About">
@@ -16,8 +16,8 @@ function About() {
           fontSize: '20px',
           padding: '30px 10% 0 10%'
         }}>
-        <img src='../../static/img/logo.svg' />
-        <img src='../../static/img/creative.svg' style={{ width: 200 }} />
+        <img src={useBaseUrl('img/logo.svg')} />
+        <img src={useBaseUrl('img/creative.svg')} style={{ width: 200 }} />
         <p style={{ position: 'relative', marginTop: 20, fontSize: 30 }}>
           Sangria's Lab
           <i style={{ position: 'absolute', right: -50, top: 0, fontSize: 12 }}>2020. 09</i>
@@ -26,7 +26,7 @@ function About() {
           <div className="container">
             <div className='row'>
               <div className='col col--4'>
-                <img src='../../static/img/concat.jpg'/>
+                <img src={useBaseUrl('img/concat.jpg')} />
               </div>
             </div>
           </div>

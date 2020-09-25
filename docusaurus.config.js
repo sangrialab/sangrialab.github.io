@@ -43,7 +43,7 @@ module.exports = {
             },
             {
               label: 'design',
-              to: 'docs/develop',
+              to: 'docs/design',
             },
           ],
         },
