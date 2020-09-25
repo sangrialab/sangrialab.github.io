@@ -16,12 +16,13 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Me',
+          to: 'about',
+          activeBasePath: 'about',
+          label: 'About',
           position: 'left',
         },
-        {to: 'blog', label: 'Designer', position: 'left'},
+        {to: 'docs/develop', label: 'Develop', position: 'left',activeBasePath: 'docs/develop'},
+        {to: 'docs/design', label: 'Design', position: 'left',activeBasePath: 'docs/design'},
         {to: 'blog', label: 'Blog', position: 'left'},
         // {
         //   href: 'https://github.com/facebook/docusaurus',
@@ -34,50 +35,46 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'develop',
+              to: 'docs/develop',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'design',
+              to: 'docs/develop',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社区',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '博客',
+              href: 'https://sangrialab.github.io/blog',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+              label: 'Github',
+              href: 'https://github.com/sangrialab',
+            }
           ],
         },
         {
-          title: 'More',
+          title: '资源',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: '国内镜像站点 cn',
+              to: '#',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: '海外站点 🌏',
+              href: 'https://github.com/sangrialab',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sangria's Lab. Built with Docusaurus`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sangria's Lab<br/> Built with Docusaurus`,
     },
   },
   presets: [
@@ -87,14 +84,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          // editUrl:  'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          // editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

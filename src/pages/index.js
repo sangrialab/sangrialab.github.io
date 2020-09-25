@@ -8,11 +8,11 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Creative',
+    title: 'Develop',
     imageUrl: 'img/data.svg',
     description: (
       <>
-        flat-design-illustration-for-presentation-web-landing-page-a-man-stands-shy-of-doubts-and-does-not-dare-to-make-a-business-decision.
+        自己实践用过的框架总结，正在学习的框架记录跟踪，挖掘的一些有趣的项目。
       </>
     ),
   },
@@ -21,18 +21,16 @@ const features = [
     imageUrl: 'img/design.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        针对 web 和 mobile 端设计的记录与分享，主要包括 <code>UI</code> <code>UE</code>。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Blog',
     imageUrl: 'img/flower.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        心路历程，杂谈感想，天马行空，开心就好。
       </>
     ),
   },
@@ -70,7 +68,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('docs')}>
               Get Started
             </Link>
           </div>
