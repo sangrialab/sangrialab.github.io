@@ -22,11 +22,17 @@ function About() {
           Sangria's Lab
           <i style={{ position: 'absolute', right: -50, top: 0, fontSize: 12 }}>2020. 09</i>
         </p>
-        <section className='features_src-pages-'>
+        <section className='features_src-pages-' style={{width:'100%'}}>
           <div className="container">
             <div className='row'>
               <div className='col col--4'>
                 <img src={useBaseUrl('img/concat.jpg')} />
+              </div>
+              <div className='col col--4'>
+
+              </div>
+              <div className='col col--4'>
+                
               </div>
             </div>
           </div>
