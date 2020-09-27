@@ -30,6 +30,14 @@ module.exports = {
     },
   ],
   Design: [
-    'design/index'
+    'design/index',
+    {
+      type: 'category',
+      label: '设计资源',
+      collapsed: false,
+      items: [
+        'design/resources/material'
+      ],
+    },
   ]
 };

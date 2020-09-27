@@ -65,11 +65,11 @@ module.exports = {
           items: [
             {
               label: '国内镜像站点 cn',
-              to: '#',
+              to: 'https://sangrialab.gitee.io',
             },
             {
               label: '海外站点 🌏',
-              href: 'https://github.com/sangrialab',
+              href: 'https://sangrialab.github.io',
             },
           ],
         },
