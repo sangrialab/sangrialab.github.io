@@ -74,7 +74,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sangria's Lab<br/> Built with Docusaurus`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sangria's Lab. Built with Docusaurus`,
     },
   },
   presets: [
