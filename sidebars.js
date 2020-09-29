@@ -9,7 +9,6 @@ module.exports = {
       label: 'nodejs',
       collapsed: false,
       items: [
-        // 'develop/nodejs/doc1'
       ],
     },
     {
@@ -17,7 +16,6 @@ module.exports = {
       label: 'react',
       collapsed: false,
       items: [
-        // 'develop/react/doc2'
       ],
     },
     {
@@ -25,7 +23,6 @@ module.exports = {
       label: 'vue',
       collapsed: false,
       items: [
-        // 'develop/vue/doc3'
       ],
     },
   ],
@@ -37,6 +34,14 @@ module.exports = {
       collapsed: false,
       items: [
         'design/resources/material'
+      ],
+    },
+    {
+      type: 'category',
+      label: '设计基础',
+      collapsed: false,
+      items: [
+        'design/articles/layout'
       ],
     },
   ]

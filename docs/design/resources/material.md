@@ -1,6 +1,6 @@
 ---
 id: material
-title: Material
+title: 素材
 ---
 
 ### ICON资源
