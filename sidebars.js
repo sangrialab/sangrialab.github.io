@@ -6,25 +6,12 @@ module.exports = {
     'develop/README',
     {
       type: 'category',
-      label: 'nodejs',
+      label: 'project',
       collapsed: false,
       items: [
+        'develop/project/data-connect'
       ],
-    },
-    {
-      type: 'category',
-      label: 'react',
-      collapsed: false,
-      items: [
-      ],
-    },
-    {
-      type: 'category',
-      label: 'vue',
-      collapsed: false,
-      items: [
-      ],
-    },
+    }
   ],
   Design: [
     'design/index',
