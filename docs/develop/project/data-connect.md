@@ -5,4 +5,4 @@ title: 数据对接
 
 ### A simple project
 
-> 通过node读取本地Oracle数据传输对方java系统接收
+> nodejs项目读取本地oracle数据库数据通过axios定时发送至对方java项目接。
