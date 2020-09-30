@@ -8,6 +8,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Sleep for 3 minutes until Travis CI done
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '180s'
+
     - name: Sync to Gitee
       uses: wearerequired/git-mirror-action@master
       env:
