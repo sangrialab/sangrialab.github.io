@@ -87,7 +87,7 @@ Main components
 
 .cd-timeline-img {
   position: absolute;
-  top: 8px;
+  top: 12px;
   left: 12px;
   width: 10px;
   height: 10px;
@@ -163,6 +163,7 @@ Main components
         display: inline-block;
       }
     }
+
   }
 
   .content-skills {
@@ -291,5 +292,11 @@ Main components
     left: auto;
     right: 146%;
     text-align: right;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .cd-timeline-img {
+    top: 18px;
   }
 }
