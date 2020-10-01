@@ -21,9 +21,9 @@ module.exports = {
           label: 'About',
           position: 'left',
         },
-        {to: 'docs/develop', label: 'Develop', position: 'left',activeBasePath: 'docs/develop'},
-        {to: 'docs/design', label: 'Design', position: 'left',activeBasePath: 'docs/design'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'docs/develop', label: 'Develop', position: 'left', activeBasePath: 'docs/develop' },
+        { to: 'docs/design', label: 'Design', position: 'left', activeBasePath: 'docs/design' },
+        { to: 'blog', label: 'Blog', position: 'left' },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -77,6 +77,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Sangria's Lab. Built with Docusaurus`,
     },
   },
+  plugins: ['docusaurus-plugin-sass'],
   presets: [
     [
       '@docusaurus/preset-classic',
