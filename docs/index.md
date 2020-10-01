@@ -1,6 +1,6 @@
 ---
 id: index
-title: 简介
+title: 时间线
 slug: /
 ---
 import {useEffect} from 'react';
