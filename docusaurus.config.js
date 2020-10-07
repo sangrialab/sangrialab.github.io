@@ -64,7 +64,7 @@ module.exports = {
           title: '资源',
           items: [
             {
-              label: '国内镜像站点 cn',
+              label: '国内镜像站点 🇨🇳',
               to: 'https://sangrialab.gitee.io',
             },
             {
