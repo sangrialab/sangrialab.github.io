@@ -9,7 +9,7 @@ module.exports = {
       label: 'project',
       collapsed: false,
       items: [
-        'develop/project/data-connect'
+        'develop/project/docker'
       ],
     }
   ],

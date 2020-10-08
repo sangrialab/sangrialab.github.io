@@ -2,6 +2,7 @@
 id: layout
 title: 布局
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 >当我们谈论图文排版的时候，其实说的就是如何组织内容的逻辑顺序，排版布局内容在阅读媒介上的空间位置，使得信息以最佳的表现方式有效地向读者传达。
 
@@ -15,7 +16,7 @@ export const ImageWrapper = ({list}) => (
                 const {url,text} = items;
                 return (
                     <div key={i} style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-                        <img src={url} style={{width:'80%'}}/>
+                        <img src={useBaseUrl(url)} style={{width:'80%',marginBottom:10}}/>
                         <span>{text}</span>
                     </div>
                 )
@@ -24,7 +25,7 @@ export const ImageWrapper = ({list}) => (
     </div>
 )
 
-<ImageWrapper list={[{url:'http://mmbiz.qpic.cn/mmbiz_jpg/MVPvEL7Qg0Erygviac3mn6QTtnwmjL0PYFicicgkLMoH25Y11wMFIxgia1dcgId8Urs7dIvUXPJ2SaTuWDSmJicXBIQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',text:'没有隔板的衣柜'},{url:'http://mmbiz.qpic.cn/mmbiz_jpg/MVPvEL7Qg0Erygviac3mn6QTtnwmjL0PYAa2CMjIdObJOpyd1uK6NdWPde9GFuQcheqYkOLA13ic2oBqPsmFJm0Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',text:'有隔板的衣柜'}]}/>
+<ImageWrapper list={[{url:'img/disarray.jpeg',text:'没有隔板的衣柜'},{url:'img/orderly.jpeg',text:'有隔板的衣柜'}]}/>
 
 :::tip
 
