@@ -6,10 +6,18 @@ module.exports = {
     'develop/README',
     {
       type: 'category',
-      label: 'project',
+      label: 'Project',
       collapsed: false,
       items: [
-        'develop/project/docker'
+        'develop/project/overview',
+        {
+          type: 'category',
+          label: 'NestJs',
+          collapsed: false,
+          items: [
+            'develop/project/nestjs/doc'
+          ],
+        },
       ],
     }
   ],

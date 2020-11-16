@@ -76,6 +76,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Sangria's Lab. Built with Docusaurus`,
     },
+    // prism: {
+    //   theme: require('prism-react-renderer/themes/github'),
+    // }
   },
   plugins: ['docusaurus-plugin-sass'],
   presets: [
