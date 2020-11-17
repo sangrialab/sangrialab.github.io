@@ -9,12 +9,14 @@ export const ListContainer = ({list}) => {
     const {title, data} = list;
     return (
         <>
-            <h3>{title}</h3>
+            <h3>
+                <a>{title}</a>
+            </h3>
             {
-                data.map(item => {
+                data.map((item,i) => {
                     const {url,description,img} = item;
                     return (
-                        <div style={{display:'flex',flexDirection:'row',backgroundColor:'rgba(0,0,0,5%)',marginBottom:10}}>
+                        <div style={{display:'flex',flexDirection:'row',backgroundColor:'rgba(0,0,0,5%)',marginBottom:10}} key={url}>
                             <div style={{width:120,display:'flex',justifyContent:'center',alignItems:'center',background:'transparent'}}>
                                 <img style={{width:60,height:60,background:'transparent',borderRadius:'50%'}} src={img}/>
                             </div>
