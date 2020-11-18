@@ -3,13 +3,12 @@ id: doc
 title: Document
 ---
 
-
 ## 环境
+NestJs + MongoDB + Docker
 
-### nestjs脚手架
-```
-npm i -g @nestjs/cli
+## Docker
+![img](../../../../static/img/docker.png)
 
-nest new project-name
-```
-### 数据库
+## MongoDB
+### Aggregate Satges
+![img](../../../../static/img/aggregate.png)
