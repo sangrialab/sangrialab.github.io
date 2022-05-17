@@ -20,7 +20,7 @@ module.exports = {
         },
         {
           type: 'category',
-          label: 'audio',
+          label: 'Audio',
           collapsed: false,
           items: [
             'develop/project/audio/mp3'

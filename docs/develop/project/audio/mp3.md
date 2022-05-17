@@ -1,13 +1,16 @@
 ---
-id: doc
-title: MP3 托管测试
+id: mp3
+title: MP3_HOSTING
 ---
+import './mp3.scss'; 
 
-## 环境
-NestJs + MongoDB + Docker
+export const MP3 = () => {
+    const mp3 = ['Céline-Dion-Baby.mp3','J-Lisk-NYC.mp3']
+    return mp3.map(m => {
+        return <div>
+            <a href={ `/img/${m}` }>{m}</a>
+        </div>
+    })
+}
 
-## Docker
-![Céline-Dion-Baby](../../../../static/img/Céline-Dion-Baby.mp3)
-
-## MongoDB
-![J-Lisk-NYC](../../../../static/img/J-Lisk-NYC.mp3)
+<MP3/>
