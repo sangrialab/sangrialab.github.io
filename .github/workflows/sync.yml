@@ -11,7 +11,7 @@ jobs:
     - name: Sleep for 3 minutes until Travis CI done
       uses: jakejarvis/wait-action@master
       with:
-        time: '180s'
+        time: '120s'
 
     - name: Sync to Gitee
       uses: wearerequired/git-mirror-action@master
