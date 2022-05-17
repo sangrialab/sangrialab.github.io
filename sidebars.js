@@ -13,9 +13,17 @@ module.exports = {
         {
           type: 'category',
           label: 'NestJs',
-          collapsed: false,
+          collapsed: true,
           items: [
             'develop/project/nestjs/doc'
+          ],
+        },
+        {
+          type: 'category',
+          label: 'audio',
+          collapsed: false,
+          items: [
+            'develop/project/audio/mp3'
           ],
         },
       ],
