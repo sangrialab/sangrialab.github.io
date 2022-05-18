@@ -8,7 +8,7 @@ export const MP3 = () => {
     const mp3 = ['Céline-Dion-Baby.mp3','J-Lisk-NYC.mp3','wave.mp3']
     return mp3.map(m => {
         return <div>
-            🔥 <a href={ `/img/mp3/${m}` }>{m}</a>
+            🔥 <a href={ `/mp3/${m}` }>{m}</a>
         </div>
     })
 }
