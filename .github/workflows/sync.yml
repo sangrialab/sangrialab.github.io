@@ -8,19 +8,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3.3.0
+    # - uses: actions/checkout@v3.3.0
+    #   with:
+    #     ref: source
+    - name: build-github-page
+      uses: redkubes/docusaurus-deploy-action@v1.2
       with:
-        ref: source
-    - uses: redkubes/docusaurus-deploy-action@v1.2
-      with:
-        source-folder: website
+        source-folder: source
         git-user: $GH_NAME
         git-password: $GH_TOKEN
         deployment-branch: master
-    - name: Sleep for 2 minutes until Travis CI done
-      uses: jakejarvis/wait-action@master
-      with:
-        time: '120s'
+    # - name: Sleep for 2 minutes until Travis CI done
+    #   uses: jakejarvis/wait-action@master
+    #   with:
+    #     time: '120s'
     - name: sync-gitee-mirror
       uses: abersheeran/sync-gitee-mirror@v1-beta
       with:
