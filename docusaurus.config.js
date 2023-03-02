@@ -7,9 +7,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'sangrialab', // Usually your GitHub org/user name.
   projectName: 'sangrialab.github.io', // Usually your repo name.
-  customFields: {
-    deploymentBranch: 'master',
-  },
   themeConfig: {
     navbar: {
       title: 'My Lab',
