@@ -45,6 +45,10 @@ jobs:
     name: sync to gitee
     runs-on: ubuntu-latest
     steps:
+      - name: Sleep until GitHub Pages done
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '120s'
       - name: sync-gitee-mirror
         uses: abersheeran/sync-gitee-mirror@v1-beta
         with:
