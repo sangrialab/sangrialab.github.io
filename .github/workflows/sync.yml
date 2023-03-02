@@ -8,7 +8,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@source
+    - uses: actions/checkout@v3.3.0
+      with:
+        ref: source
     - uses: redkubes/docusaurus-deploy-action@v1.2
       with:
         source-folder: website
